@@ -3,6 +3,7 @@ import random
 correct = 'you guessed correctly!'
 too_low = 'too low'
 too_high = 'too high'
+print('Guess the Number Game')
 
 
 def configure_range():
@@ -44,6 +45,7 @@ def main():
             break
 
     print('Thanks for playing the game!')
+
 
 
 if __name__ == '__main__':
